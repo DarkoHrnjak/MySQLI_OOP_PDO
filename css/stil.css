@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Navigacija */
+nav {
+    padding: 20px;
+}
+
+nav a {
+    padding: 8px 12px;
+    margin-right: 8px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+}
+
+.greska{
+    color: red;
+}
+
+.uspjeh{
+    color: green;
+}
+/* Naslovi */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Tablice */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+table th {
+    background-color: #eaecef;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Gumbi za akcije */
+.action-btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.action-btn.delete {
+    background-color: #e74c3c;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+}
+
+/* Forme */
+form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 350px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+button,
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+#footer{
+    text-align: center;
+    /* padding: 20px; */
+    font-size: 14px;
+    margin-top: 40px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* position: fixed; */
+}
+
+.nova{
+    padding: 5px;
+    border: 1px solid #a7a0a0;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 12px;
+} 
