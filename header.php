@@ -23,5 +23,6 @@ define("APP_URL",$appUrl);
     <a href="<?= APP_URL ?>index.php">Početna</a>
     <a href="<?= APP_URL ?>Pages/kategorije.php">Kategorije</a>
     <a href="<?= APP_URL ?>Pages/proizvodi.php">Proizvodi</a>
+    <a href="<?= APP_URL ?>Pages/transakcija.php">Transakcija</a>
 </nav>
 <hr>
